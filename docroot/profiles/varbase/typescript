@@ -1,0 +1,18 @@
+Script started on Thu May  6 16:28:48 2021
+[?1034hbash-3.2$ l[Kls
+CHANGELOG.md		UPDATE.md		behat.yml		composer.json		configbit		images			package			scripts			tests			typescript		varbase.install		varbase.profile		yarn.lock
+README.md		behat.varbase.yml	build.xml		config			css			libraries		package.json		src			translations		varbase.info.yml	varbase.libraries.yml	varbase.services.yml
+bash-3.2$ cd ..
+bash-3.2$ cd ..
+bash-3.2$ ls
+INSTALL.txt		README.txt		autoload.php		core			example.gitignore	index.php		libraries		modules			profiles		robots-staging.txt	robots.txt		site			sites			themes			update.php		web.config
+bash-3.2$ clear
+[H[2Jbash-3.2$ ls
+INSTALL.txt		README.txt		autoload.php		core			example.gitignore	index.php		libraries		modules			profiles		robots-staging.txt	robots.txt		site			sites			themes			update.php		web.config
+bash-3.2$ cd ..
+bash-3.2$ ls
+LICENSE		README.md	bin		composer.json	composer.lock	config		docroot		node_modules	package.json	vendor		yarn.lock
+bash-3.2$ exit
+exit
+
+Script done on Thu May  6 16:29:31 2021

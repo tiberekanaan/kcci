@@ -1,0 +1,11 @@
+
+Composer detected issues in your platform: Your Composer dependencies[31;40m[1m[error][0m
+require a PHP version ">= 7.3.0". You are running 5.5.38.
+platform_check.php:25
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /Users/rakera/Sites/lando/community-wifi/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /Users/rakera/Sites/lando/community-wifi/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+Drush command terminated abnormally due to an unrecoverable error.   [31;40m[1m[error][0m
+Error: syntax error, unexpected ':', expecting '{' in
+/Users/rakera/Sites/lando/community-wifi/vendor/symfony/polyfill-php80/bootstrap.php,
+line 23
