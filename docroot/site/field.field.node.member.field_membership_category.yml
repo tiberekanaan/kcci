@@ -1,0 +1,29 @@
+uuid: 5fb3e8d6-7b85-4369-be49-31c807e86458
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_membership_category
+    - node.type.member
+    - taxonomy.vocabulary.membership_category
+id: node.member.field_membership_category
+field_name: field_membership_category
+entity_type: node
+bundle: member
+label: 'Membership Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      membership_category: membership_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

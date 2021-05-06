@@ -1,0 +1,14 @@
+uuid: 3afb2d6b-f129-44b3-9945-fc4ea701f6e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.board_member
+id: node_type_board_member
+entity_type_id: node_type
+entity_id: board_member
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

@@ -1,0 +1,14 @@
+uuid: e5f5aed8-1ed3-4d93-a517-64d505b22999
+langcode: en
+status: 1
+dependencies: {  }
+_core:
+  default_config_hash: LF1x7-tCVBketCRtgp1skA6zwhG9THKGwd9rJy832hQ
+id: galaxy_s9
+label: 'Galaxy S9'
+weight: -8
+orientation: portrait
+dimensions:
+  width: 1440
+  height: 2960
+  dppx: !!float 4

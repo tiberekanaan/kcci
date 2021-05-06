@@ -1,0 +1,23 @@
+uuid: d7200caf-0856-4035-b402-59eb6e9f14b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_selection
+    - node.type.landing_page_lb
+_core:
+  default_config_hash: GbwH7QYX8h8u4D6Os8QRvRB-4X7A2kt85QRwyKLJqCQ
+id: node.landing_page_lb.layout_selection
+field_name: layout_selection
+entity_type: node
+bundle: landing_page_lb
+label: Layout
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: layout_library
+  handler_settings: {  }
+field_type: entity_reference

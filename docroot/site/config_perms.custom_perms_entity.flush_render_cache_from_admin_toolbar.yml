@@ -1,0 +1,9 @@
+uuid: 482474d8-0450-4b0e-bcdb-ee5be833971a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qccgARfcEP5k4rmsuJ_xzb5mEqmD8Yubndas4qMbc6s
+id: flush_render_cache_from_admin_toolbar
+label: 'Flush render cache from admin toolbar'
+route: admin_toolbar_tools.flush_rendercache

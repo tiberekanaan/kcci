@@ -1,0 +1,33 @@
+uuid: 665e03bb-0135-4061-957a-c2a98ceb2f6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.simplified
+    - field.field.media.file.field_media_file
+    - field.field.media.file.field_media_in_library
+    - media.type.file
+  module:
+    - file
+_core:
+  default_config_hash: pc7pGCD6C7N2-FWQY0sPJq_p7_oGBV2z7xzla_taF_8
+id: media.file.simplified
+targetEntityType: media
+bundle: file
+mode: simplified
+content:
+  field_media_file:
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_in_library: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

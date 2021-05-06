@@ -1,0 +1,35 @@
+uuid: dd9c725d-f9ea-4d5f-b9cd-aee8bed507e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resource.body
+    - node.type.resource
+  module:
+    - text
+    - user
+id: node.resource.default
+targetEntityType: node
+bundle: resource
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

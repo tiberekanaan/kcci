@@ -1,0 +1,22 @@
+uuid: ffb70c21-c2c0-4362-9250-26a6dd165db9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_claro
+_core:
+  default_config_hash: 5C1RRAqZH8LDdYZz87Th2e4S4hDSusNzAFC-5p2ph3o
+id: vartheme_claro_content
+theme: vartheme_claro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

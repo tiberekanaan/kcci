@@ -1,0 +1,20 @@
+uuid: 58419dc9-3cc7-43e7-92fe-0b7b7acb16d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+_core:
+  default_config_hash: h3Gyqb4a3_-jMM8uLCHUW50k_q4NydTZlUuKRyVUYK4
+id: block_content.basic.info
+field_name: info
+entity_type: block_content
+bundle: basic
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+uuid: a92569b8-d402-4051-a9bf-fd9345bd4441
+langcode: en
+status: 1
+dependencies: {  }
+_core:
+  default_config_hash: fA1RxkOhIMwUBdUOWfw5WqagmO4PnVsMtm2HxruCgaU
+id: breakpoint_xs
+label: 'Extra small devices (Portrait phones)'
+base_class: col
+weight: '-6'

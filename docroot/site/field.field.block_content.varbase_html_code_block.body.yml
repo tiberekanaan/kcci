@@ -1,0 +1,32 @@
+uuid: edaa5227-c5b4-4476-8a00-1528f56f98ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_html_code_block
+    - field.storage.block_content.body
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    code_html: code_html
+    full_html: '0'
+    basic_html: '0'
+    plain_text: '0'
+_core:
+  default_config_hash: FiVL_2U-3NH23118j_jNOVT9TTe6y9pf5lN-z1Rjc34
+id: block_content.varbase_html_code_block.body
+field_name: body
+entity_type: block_content
+bundle: varbase_html_code_block
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary
