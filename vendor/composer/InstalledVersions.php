@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '549851e239cbd2033523bca83e496ff09d0d6a21',
+    'reference' => 'cd6331980f190f395ddb6da0d551c06756e77eba',
     'name' => 'vardot/varbase-project',
   ),
   'versions' => 
@@ -690,6 +690,15 @@ private static $installed = array (
       array (
         0 => '9.1.8',
       ),
+    ),
+    'drupal/config_direct_save' => 
+    array (
+      'pretty_version' => '2.1.0',
+      'version' => '2.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.1',
     ),
     'drupal/config_filter' => 
     array (
@@ -3979,7 +3988,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '549851e239cbd2033523bca83e496ff09d0d6a21',
+      'reference' => 'cd6331980f190f395ddb6da0d551c06756e77eba',
     ),
     'vardot/varbase-updater' => 
     array (

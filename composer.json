@@ -42,7 +42,8 @@
     "drupal/captcha": "^1.2",
     "drupal/views_bulk_operations": "^3.13",
     "drupal/webform": "^6.0",
-    "drupal/core": "^9.1"
+    "drupal/core": "^9.1",
+    "drupal/config_direct_save": "^2.1"
   },
   "config": {
     "bin-dir": "bin/",
