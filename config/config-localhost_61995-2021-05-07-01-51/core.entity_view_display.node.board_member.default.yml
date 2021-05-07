@@ -1,0 +1,35 @@
+uuid: e3988ac9-61b9-461b-bbcb-a17e9bb7e9e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.board_member.body
+    - node.type.board_member
+  module:
+    - text
+    - user
+id: node.board_member.default
+targetEntityType: node
+bundle: board_member
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

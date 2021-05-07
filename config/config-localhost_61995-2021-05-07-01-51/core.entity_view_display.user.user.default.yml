@@ -1,0 +1,38 @@
+uuid: 3a06dc62-d3c6-453a-8d8b-062273277b3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_last_password_reset
+    - field.field.user.user.field_password_expiration
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: C1kMPZZ39Q9RLaiUqqWEbz8-6ZBNOr2aT8FXqgqRw4c
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  masquerade:
+    weight: 50
+    region: content
+  member_for:
+    weight: 5
+    region: content
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  field_last_password_reset: true
+  field_password_expiration: true
+  langcode: true

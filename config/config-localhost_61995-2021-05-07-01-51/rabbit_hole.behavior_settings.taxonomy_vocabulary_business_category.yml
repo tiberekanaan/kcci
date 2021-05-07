@@ -1,0 +1,14 @@
+uuid: 1108deb3-405e-4644-8d72-c97cadd451e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.business_category
+id: taxonomy_vocabulary_business_category
+entity_type_id: taxonomy_vocabulary
+entity_id: business_category
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

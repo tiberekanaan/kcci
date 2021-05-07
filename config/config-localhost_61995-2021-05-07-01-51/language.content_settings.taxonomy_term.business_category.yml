@@ -1,0 +1,11 @@
+uuid: e5cf376b-6499-43c4-824d-3f54b603aff2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.business_category
+id: taxonomy_term.business_category
+target_entity_type_id: taxonomy_term
+target_bundle: business_category
+default_langcode: site_default
+language_alterable: false

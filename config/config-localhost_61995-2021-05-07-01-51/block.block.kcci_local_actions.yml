@@ -1,0 +1,20 @@
+uuid: ec9764ba-cbf6-4952-9986-726ce6f63d69
+langcode: en
+status: true
+dependencies:
+  theme:
+    - kcci
+_core:
+  default_config_hash: G9S2xcoqVCkv2KZgqf_qJu304J0EaGJXrbFL9whlFcg
+id: kcci_local_actions
+theme: kcci
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

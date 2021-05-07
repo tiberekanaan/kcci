@@ -1,0 +1,14 @@
+uuid: 48a81b4b-120f-4533-b3cf-8443c0aa8d59
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.membership_category
+id: taxonomy_vocabulary_membership_category
+entity_type_id: taxonomy_vocabulary
+entity_id: membership_category
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

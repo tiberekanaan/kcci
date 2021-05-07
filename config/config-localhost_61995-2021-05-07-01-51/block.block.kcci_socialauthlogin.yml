@@ -1,0 +1,28 @@
+uuid: f168e359-f92d-410a-a762-a8a18525dd85
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - kcci
+_core:
+  default_config_hash: p9fGfQUTE9mjwd_TM-FdOUfJwal5w6hj8i5ogL5_wQw
+id: kcci_socialauthlogin
+theme: kcci
+region: content
+weight: -7
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Login with'
+  provider: social_auth
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user/login\r\n/user/register"
+    negate: false
+    context_mapping: {  }

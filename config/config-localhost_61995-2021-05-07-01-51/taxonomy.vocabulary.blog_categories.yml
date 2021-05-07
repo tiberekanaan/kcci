@@ -1,0 +1,10 @@
+uuid: 8b095a12-8af6-4eb3-b502-1e8c90f5aa73
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QoH0p6vnUJ-ZF-kpnEZdw-jp5Sd7t0mP7jdVVcW1hzI
+name: 'Blog Categories'
+vid: blog_categories
+description: ''
+weight: 0

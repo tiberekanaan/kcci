@@ -1,0 +1,30 @@
+uuid: ee2953a6-3bce-4608-bcca-d4a88ec10df4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.event
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    full_html: '0'
+    basic_html: '0'
+    code_html: '0'
+    plain_text: '0'
+id: node.event.body
+field_name: body
+entity_type: node
+bundle: event
+label: 'Event description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

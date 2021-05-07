@@ -1,0 +1,28 @@
+uuid: 247b01c9-354d-45cc-a3d6-3443ff0ddaca
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - bootstrap_barrio_subtheme
+_core:
+  default_config_hash: p9fGfQUTE9mjwd_TM-FdOUfJwal5w6hj8i5ogL5_wQw
+id: bootstrap_barrio_subtheme_socialauthlogin
+theme: bootstrap_barrio_subtheme
+region: content
+weight: -7
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Login with'
+  provider: social_auth
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user/login\r\n/user/register"
+    negate: false
+    context_mapping: {  }

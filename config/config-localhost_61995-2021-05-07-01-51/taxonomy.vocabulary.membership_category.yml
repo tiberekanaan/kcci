@@ -1,0 +1,8 @@
+uuid: 4eddf953-6160-4d49-97b7-685f5999e405
+langcode: en
+status: true
+dependencies: {  }
+name: 'Membership Category'
+vid: membership_category
+description: 'Type of membership'
+weight: 0

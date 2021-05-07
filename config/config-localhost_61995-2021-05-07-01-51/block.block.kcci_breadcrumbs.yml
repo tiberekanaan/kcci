@@ -1,0 +1,22 @@
+uuid: 1b9b75ed-8652-4e1b-91c6-5c7c24633558
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kcci
+_core:
+  default_config_hash: 5oFLuf0E15Nhm8NJMsNjHJCokFVBe2M2MG0au7smUKg
+id: kcci_breadcrumbs
+theme: kcci
+region: header
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

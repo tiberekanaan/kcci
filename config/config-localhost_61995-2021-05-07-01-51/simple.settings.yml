@@ -1,0 +1,5 @@
+social_auth_type:
+  social_auth_google: social_auth_google
+  social_auth_facebook: social_auth_facebook
+  social_auth_linkedin: 0
+  social_auth_twitter: 0

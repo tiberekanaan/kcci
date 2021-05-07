@@ -1,0 +1,18 @@
+uuid: badb77de-b86f-40ba-8a3f-2d3f11cf15eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.varbase_gallery_block
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: zL-G4EL2leeRi9FfYjXMa9NhysFU23D-Z_-ZuFBAXL8
+id: block_content.varbase_gallery_block
+target_entity_type_id: block_content
+target_bundle: varbase_gallery_block
+default_langcode: current_interface
+language_alterable: true
