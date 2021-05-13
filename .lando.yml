@@ -4,6 +4,7 @@ config:
   webroot: docroot
   php: '7.3'
   drush: ^9
+  drupal: true
 services:
   appserver:
     scanner: false
