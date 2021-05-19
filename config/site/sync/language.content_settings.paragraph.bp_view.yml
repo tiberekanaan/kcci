@@ -1,0 +1,20 @@
+uuid: 36dc18d3-9c9d-46f8-bc13-b5fab844497d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_view
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: udCmj1Ej7Jrxu3A_EaYpjoa7gE2c24XOSB9X1Uo4Q30
+id: paragraph.bp_view
+target_entity_type_id: paragraph
+target_bundle: bp_view
+default_langcode: site_default
+language_alterable: true

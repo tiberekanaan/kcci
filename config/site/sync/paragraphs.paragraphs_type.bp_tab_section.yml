@@ -1,0 +1,17 @@
+uuid: b4552e08-3800-4d27-b2fa-7c6cb197e201
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: aCy93Sq9_6JXNVJp9IA8GZElPhr_c-3I65UEfKZfV34
+id: bp_tab_section
+label: 'Tab Section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

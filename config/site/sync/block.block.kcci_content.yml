@@ -1,0 +1,22 @@
+uuid: 60435b1a-2143-469f-89a1-a79e6d008122
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kcci
+_core:
+  default_config_hash: mS1K-W63vdB25CSOM72vmLfoogqrd5cjLggOk5Yt0fw
+id: kcci_content
+theme: kcci
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 08fb297a-5705-4648-92af-daae1a6f94f9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Member designation'
+vid: member_designation
+description: 'Designation of Board Members of KCCI'
+weight: 0

@@ -1,0 +1,9 @@
+uuid: 968ded5d-971c-47d1-bb3d-061ff36a1100
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Gj4F5WD5hQ4Y7Dnkynggyeo1NCrJHBnoldrCnA3pSMY
+id: flush_menu_cache_from_admin_toolbar
+label: 'Flush menu cache from admin toolbar'
+route: admin_toolbar_tools.flush_menu

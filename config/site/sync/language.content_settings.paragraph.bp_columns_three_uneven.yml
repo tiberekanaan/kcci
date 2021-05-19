@@ -1,0 +1,20 @@
+uuid: 7015693f-a527-48ab-8947-dc6629dc032e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_columns_three_uneven
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: lU0j1_tP-iKOq_7WhMIsrSoXd25BiLII-OGj8piLN6I
+id: paragraph.bp_columns_three_uneven
+target_entity_type_id: paragraph
+target_bundle: bp_columns_three_uneven
+default_langcode: site_default
+language_alterable: true

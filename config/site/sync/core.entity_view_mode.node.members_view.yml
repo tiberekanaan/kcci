@@ -1,0 +1,10 @@
+uuid: e102d3bb-48f6-40e7-a58f-4bbb3a188ada
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.members_view
+label: 'Members View'
+targetEntityType: node
+cache: true

@@ -1,0 +1,25 @@
+uuid: 13c39e5f-858d-4739-a0ea-6b25a270823f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kcci
+_core:
+  default_config_hash: NNfGuQymclxJa34vSbMeSqjMChId-AFFdozfp_Y4NPM
+id: kcci_branding
+theme: kcci
+region: navigation
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

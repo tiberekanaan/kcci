@@ -1,0 +1,29 @@
+uuid: 84f692ce-19be-4a30-bb09-7513245f38df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_designation
+    - node.type.board_member
+    - taxonomy.vocabulary.member_designation
+id: node.board_member.field_designation
+field_name: field_designation
+entity_type: node
+bundle: board_member
+label: Designation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      member_designation: member_designation
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

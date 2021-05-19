@@ -1,0 +1,14 @@
+uuid: 614a2eac-01a0-4c1c-825f-6a4f55595aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.member_designation
+id: taxonomy_vocabulary_member_designation
+entity_type_id: taxonomy_vocabulary
+entity_id: member_designation
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

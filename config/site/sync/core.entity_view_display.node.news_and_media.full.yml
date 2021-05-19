@@ -1,0 +1,92 @@
+uuid: 95a3b98b-4b05-4dc0-ab05-478c023f4820
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.news_and_media.body
+    - field.field.node.news_and_media.field_date_of_publication
+    - field.field.node.news_and_media.field_featured_image
+    - image.style.large
+    - node.type.news_and_media
+  module:
+    - datetime
+    - ds
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  ds:
+    layout:
+      id: horizontal_media_teaser_medium
+      library: vmi/horizontal_media_teaser_medium
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - links
+        - field_featured_image
+      right:
+        - field_date_of_publication
+        - body
+id: node.news_and_media.full
+targetEntityType: node
+bundle: news_and_media
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: right
+  field_date_of_publication:
+    weight: 2
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: right
+  field_featured_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: image
+    region: left
+  links:
+    weight: 0
+    region: left
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  content_moderation_control: true
+  langcode: true
+  search_api_excerpt: true

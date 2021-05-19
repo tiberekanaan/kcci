@@ -1,0 +1,10 @@
+uuid: b4ab05b7-10b4-4389-b4d4-2a194a5fe3f1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ru_sLk23k0y0qP3eHlcWUNAgbWpIHOwXE3ocJgygqnM
+name: 'Languages Supported'
+vid: languages_supported
+description: 'The languages supported by the font.'
+weight: 0

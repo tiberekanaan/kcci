@@ -1,0 +1,22 @@
+uuid: 2fad994a-e91b-4088-ad9d-eb6aceb6a2c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - kcci
+_core:
+  default_config_hash: j05pbKuj9Wfop3Rz2aVCBO6oM-Gft11rqwxbMttWr50
+id: kcci_help
+theme: kcci
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

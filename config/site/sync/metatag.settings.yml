@@ -1,0 +1,24 @@
+entity_type_groups:
+  node:
+    landing_page:
+      basic: basic
+    landing_page_lb:
+      basic: basic
+    page:
+      basic: basic
+    varbase_blog:
+      basic: basic
+    varbase_heroslider_media:
+      basic: basic
+    news_and_media:
+      basic: basic
+    event:
+      basic: basic
+    member:
+      basic: basic
+    board_member:
+      basic: basic
+    service:
+      basic: basic
+    resource:
+      basic: basic

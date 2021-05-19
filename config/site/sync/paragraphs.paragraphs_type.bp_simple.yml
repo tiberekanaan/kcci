@@ -1,0 +1,17 @@
+uuid: c1cc9d6f-f5af-4a0b-8a49-9b63ca0d206f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: 4_7EOuB4saUA1SCADsZhMIGMw8QpRazxpIp7vt3fOQc
+id: bp_simple
+label: 'Rich Text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

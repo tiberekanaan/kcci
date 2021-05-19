@@ -1,0 +1,14 @@
+uuid: 78797690-fae8-4a03-aed1-79ac38a7b714
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.news_and_media
+id: node_type_news_and_media
+entity_type_id: node_type
+entity_id: news_and_media
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

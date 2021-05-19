@@ -1,0 +1,17 @@
+uuid: f2c1a698-ae74-4e05-b7ff-07c2f2688653
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: SjQAPLjk1yKQlqSDUFL8BP0MjBcHTj4lIBOuBy-Gv8s
+id: bp_columns
+label: 'Columns (Equal)'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

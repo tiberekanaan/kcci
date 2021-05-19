@@ -1,0 +1,20 @@
+uuid: 4f76aea4-b0cd-4749-b70f-f96990bfa944
+langcode: en
+status: true
+dependencies:
+  theme:
+    - kcci
+_core:
+  default_config_hash: 1f3SKPk8jtkxF__zNY6bZUle5rMoR5qi29oHJ9jjQ6A
+id: kcci_page_title
+theme: kcci
+region: header
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,31 @@
+uuid: 05390786-e19f-4c50-9426-92d9d65da62b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.about
+  module:
+    - menu_block
+  theme:
+    - kcci
+id: about
+theme: kcci
+region: footer
+weight: -7
+provider: null
+plugin: 'menu_block:about'
+settings:
+  id: 'menu_block:about'
+  label: About
+  provider: menu_block
+  label_display: visible
+  follow: false
+  follow_parent: child
+  level: 1
+  depth: 0
+  expand_all_items: false
+  parent: 'about:'
+  suggestion: about
+  label_type: block
+  label_link: false
+visibility: {  }

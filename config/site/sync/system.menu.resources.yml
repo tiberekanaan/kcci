@@ -1,0 +1,8 @@
+uuid: 39e59485-4d6a-40ec-85d7-ea3a389f5516
+langcode: en
+status: true
+dependencies: {  }
+id: resources
+label: Resources
+description: 'Resources menu for footer'
+locked: false

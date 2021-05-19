@@ -1,0 +1,22 @@
+uuid: b66bd35b-b341-46be-8b37-f877d520dc2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kcci
+_core:
+  default_config_hash: huxwwvGRW6sCzkLbI-SIUmbV2FU6aENqCjH8AxuGNfA
+id: kcci_messages
+theme: kcci
+region: header
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

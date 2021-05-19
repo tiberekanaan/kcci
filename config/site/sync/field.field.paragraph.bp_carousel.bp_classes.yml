@@ -1,0 +1,21 @@
+uuid: b27a474d-6c8a-4300-aeb8-ebceb512c091
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.bp_classes
+    - paragraphs.paragraphs_type.bp_carousel
+_core:
+  default_config_hash: YtveKJtOt8TbCtaEZ_UpxNfaEJnFGox4RGPTI-HNt6c
+id: paragraph.bp_carousel.bp_classes
+field_name: bp_classes
+entity_type: paragraph
+bundle: bp_carousel
+label: 'CSS class(es)'
+description: 'Customize the styling by adding CSS classes. Separate multiple classes by spaces.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

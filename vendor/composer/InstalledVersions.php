@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'cd6331980f190f395ddb6da0d551c06756e77eba',
+    'reference' => '34728fb08b9ed4f2dcc7dac3e8d57888c81b81fe',
     'name' => 'vardot/varbase-project',
   ),
   'versions' => 
@@ -1375,6 +1375,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '8.x-1.5',
+    ),
+    'drupal/fontyourface' => 
+    array (
+      'pretty_version' => '3.6.0',
+      'version' => '3.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.6',
     ),
     'drupal/forum' => 
     array (
@@ -3988,7 +3997,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'cd6331980f190f395ddb6da0d551c06756e77eba',
+      'reference' => '34728fb08b9ed4f2dcc7dac3e8d57888c81b81fe',
     ),
     'vardot/varbase-updater' => 
     array (

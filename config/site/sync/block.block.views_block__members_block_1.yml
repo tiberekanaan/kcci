@@ -1,0 +1,24 @@
+uuid: 0447aa8a-fbdc-4094-b848-aab7342e7391
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.members
+  module:
+    - views
+  theme:
+    - kcci
+id: views_block__members_block_1
+theme: kcci
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:members-block_1'
+settings:
+  id: 'views_block:members-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

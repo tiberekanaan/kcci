@@ -1,0 +1,8 @@
+uuid: 0b1fd357-ce20-4120-b538-f156692d803e
+langcode: en
+status: true
+dependencies: {  }
+id: about
+label: About
+description: 'About menu for footer'
+locked: false

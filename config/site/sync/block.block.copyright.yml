@@ -1,0 +1,25 @@
+uuid: 07c8b6a8-f5c9-4181-8978-ed66926afd63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:varbase_rich_text_block:2e412a64-4ba3-41a0-bef9-4de8ca71fadc'
+  module:
+    - block_content
+  theme:
+    - kcci
+id: copyright
+theme: kcci
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:2e412a64-4ba3-41a0-bef9-4de8ca71fadc'
+settings:
+  id: 'block_content:2e412a64-4ba3-41a0-bef9-4de8ca71fadc'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

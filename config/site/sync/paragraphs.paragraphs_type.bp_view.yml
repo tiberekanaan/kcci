@@ -1,0 +1,17 @@
+uuid: 02cb1f90-251e-4087-b39e-b043e15040d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: jig_rUm40efqkhyVHHQeQUwZeZiZDXvOmi7dlkNuqNg
+id: bp_view
+label: View
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

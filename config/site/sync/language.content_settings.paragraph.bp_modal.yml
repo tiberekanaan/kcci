@@ -1,0 +1,20 @@
+uuid: ff885d84-743a-4361-866a-cdaf10054e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.bp_modal
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: Zcs_wmFZ1gvg2cv4scPkPpXZtKHY_iAluUPi5_9BIwo
+id: paragraph.bp_modal
+target_entity_type_id: paragraph
+target_bundle: bp_modal
+default_langcode: site_default
+language_alterable: true

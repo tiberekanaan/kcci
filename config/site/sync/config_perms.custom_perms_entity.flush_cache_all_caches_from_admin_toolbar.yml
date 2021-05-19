@@ -1,0 +1,9 @@
+uuid: df01983c-7160-4547-b48a-edf5e8a64b71
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MoScrz_Jk1B7m6lYP03QWN-jPRnWB5VMKyt87VsXmFc
+id: flush_cache_all_caches_from_admin_toolbar
+label: 'Flush all caches from admin toolbar'
+route: admin_toolbar_tools.flush

@@ -1,0 +1,43 @@
+uuid: 5b3a0184-d4cc-4cde-b0d9-175c8dcd0cd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.bp_column_wrapper.bp_column_content_w
+    - paragraphs.paragraphs_type.bp_column_wrapper
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 3yqtC3O7E3CMrKFmS0ThAyvVLFpKBN6gMr7heDl1JVE
+id: paragraph.bp_column_wrapper.default
+targetEntityType: paragraph
+bundle: bp_column_wrapper
+mode: default
+content:
+  bp_column_content_w:
+    type: paragraphs
+    weight: 0
+    settings:
+      title: Component
+      title_plural: Components
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: modal
+      form_display_mode: default
+      default_paragraph_type: _none
+      closed_mode_threshold: 0
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+    region: content
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

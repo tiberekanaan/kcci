@@ -1,0 +1,22 @@
+uuid: d1cea7da-4a1f-4f5b-a87d-5ff319b2a9c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.varbase_heroslider_media
+  module:
+    - path
+_core:
+  default_config_hash: PF4nMcKO7fMa5-uIs2yFDODMJRIDWc1bXQsaHHha6b4
+id: node.varbase_heroslider_media.path
+field_name: path
+entity_type: node
+bundle: varbase_heroslider_media
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

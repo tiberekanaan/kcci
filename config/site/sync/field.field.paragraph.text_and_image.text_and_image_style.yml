@@ -1,0 +1,25 @@
+uuid: 7b04101c-a242-4938-9618-630e1daa16d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.text_and_image_style
+    - paragraphs.paragraphs_type.text_and_image
+  module:
+    - options
+_core:
+  default_config_hash: bj-PWS1F8cJvacLkfIS1mAfT8lART9rcXFpBETEyJX8
+id: paragraph.text_and_image.text_and_image_style
+field_name: text_and_image_style
+entity_type: paragraph
+bundle: text_and_image
+label: 'Fields style'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: paragraph--style--50-50
+default_value_callback: ''
+settings: {  }
+field_type: list_string
